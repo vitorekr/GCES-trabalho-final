@@ -1,0 +1,16 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node0 [label="parser.parser_base.ParserBase",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classparser_1_1parser__base_1_1_parser_base.html",tooltip=" "];
+  Node0 -> Node1 [dir="back",color="steelblue1",style="solid"];
+  Node1 [label="parser.YAML_parser.YAMLParser",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classparser_1_1_y_a_m_l__parser_1_1_y_a_m_l_parser.html",tooltip=" "];
+  Node0 -> Node2 [dir="back",color="steelblue1",style="solid"];
+  Node2 [label="parser.feature_engineering\l_parser.FeatureEngineeringParser",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classparser_1_1feature__engineering__parser_1_1_feature_engineering_parser.html",tooltip=" "];
+  Node0 -> Node3 [dir="back",color="steelblue1",style="solid"];
+  Node3 [label="parser.model_parser.Model\lParser",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classparser_1_1model__parser_1_1_model_parser.html",tooltip=" "];
+}
