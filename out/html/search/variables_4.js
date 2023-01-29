@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['model_5ftype_0',['model_type',['../namespaceparser_1_1const.html#ab0e3377d55230e659584317290b2a7a5',1,'parser::const']]]
+  ['exclude_5fpatterns_0',['exclude_patterns',['../namespaceconf.html#a7ad48fb6f3e9b129c02346ea0d3527c1',1,'conf']]],
+  ['extensions_1',['extensions',['../namespaceconf.html#ae475e080536acb271a0a0efe56c3ba42',1,'conf']]]
 ];

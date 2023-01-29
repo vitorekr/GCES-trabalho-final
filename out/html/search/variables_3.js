@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['filepath_0',['filepath',['../classparser_1_1parser__base_1_1_parser_base.html#a4f3b278ff54c422767e66c78a7bb24d6',1,'parser::parser_base::ParserBase']]]
+  ['default_5fkeyboard_5fsmash_5fvalues_0',['default_keyboard_smash_values',['../classparser_1_1model__parser_1_1_model_parser.html#ad164aff94b2ff7cbe357a97d58734a09',1,'parser::model_parser::ModelParser']]]
 ];

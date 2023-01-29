@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="classparser_1_1parser__base_1_1_parser_base" kind="class" language="Python" prot="public">
+    <compoundname>parser::parser_base::ParserBase</compoundname>
+    <derivedcompoundref refid="classparser_1_1_y_a_m_l__parser_1_1_y_a_m_l_parser" prot="public" virt="non-virtual">parser.YAML_parser.YAMLParser</derivedcompoundref>
+    <derivedcompoundref refid="classparser_1_1feature__engineering__parser_1_1_feature_engineering_parser" prot="public" virt="non-virtual">parser.feature_engineering_parser.FeatureEngineeringParser</derivedcompoundref>
+    <derivedcompoundref refid="classparser_1_1model__parser_1_1_model_parser" prot="public" virt="non-virtual">parser.model_parser.ModelParser</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classparser_1_1parser__base_1_1_parser_base_1a4f3b278ff54c422767e66c78a7bb24d6" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>parser.parser_base.ParserBase::filepath</definition>
+        <argsstring></argsstring>
+        <name>filepath</name>
+        <qualifiedname>parser.parser_base.ParserBase.filepath</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/parser/parser_base.py" line="6" column="1" bodyfile="src/parser/parser_base.py" bodystart="6" bodyend="-1"/>
+        <referencedby refid="classparser_1_1_y_a_m_l__parser_1_1_y_a_m_l_parser_1a54e76ebb98b2649f328c7b887dfa8107" compoundref="_y_a_m_l__parser_8py" startline="10" endline="26">parser.YAML_parser.YAMLParser._parse_yaml</referencedby>
+        <referencedby refid="classparser_1_1parser__base_1_1_parser_base_1a5d88e7661694746fee4816141582c3a7" compoundref="parser__base_8py" startline="8" endline="17">parser.parser_base.ParserBase._try_get</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classparser_1_1parser__base_1_1_parser_base_1a2ccc68acea8b4677c1761e39d9aeb058" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def parser.parser_base.ParserBase.__init__</definition>
+        <argsstring>(self, filepath=&apos;src/yamls/config.yaml&apos;)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>parser.parser_base.ParserBase.__init__</qualifiedname>
+        <reimplementedby refid="classparser_1_1model__parser_1_1_model_parser_1a416260ece9beca7d897eec76762d9b2b">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classparser_1_1parser__base_1_1_parser_base_1a4f3b278ff54c422767e66c78a7bb24d6" kindref="member">filepath</ref></type>
+          <defname>filepath</defname>
+          <defval>&apos;src/yamls/config.yaml&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/parser/parser_base.py" line="5" column="1" bodyfile="src/parser/parser_base.py" bodystart="5" bodyend="7"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classparser_1_1parser__base_1_1_parser_base_1a5d88e7661694746fee4816141582c3a7" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def parser.parser_base.ParserBase._try_get</definition>
+        <argsstring>(self, dict variable, field, error_msg=None)</argsstring>
+        <name>_try_get</name>
+        <qualifiedname>parser.parser_base.ParserBase._try_get</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>dict</type>
+          <declname>variable</declname>
+        </param>
+        <param>
+          <type>field</type>
+          <defname>field</defname>
+        </param>
+        <param>
+          <type>error_msg</type>
+          <defname>error_msg</defname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/parser/parser_base.py" line="8" column="1" bodyfile="src/parser/parser_base.py" bodystart="8" bodyend="17"/>
+        <references refid="classparser_1_1parser__base_1_1_parser_base_1a4f3b278ff54c422767e66c78a7bb24d6" compoundref="parser__base_8py" startline="6">parser.parser_base.ParserBase.filepath</references>
+        <referencedby refid="classparser_1_1feature__engineering__parser_1_1_feature_engineering_parser_1a0679d43d692b709c02d4ab0f55672bb3" compoundref="feature__engineering__parser_8py" startline="50" endline="59">parser.feature_engineering_parser.FeatureEngineeringParser._get_features_details</referencedby>
+        <referencedby refid="classparser_1_1feature__engineering__parser_1_1_feature_engineering_parser_1a3c1fc41cba00cf9d663a5dd85bd49365" compoundref="feature__engineering__parser_8py" startline="8" endline="38">parser.feature_engineering_parser.FeatureEngineeringParser._parse_feature_engineering_configs</referencedby>
+        <referencedby refid="classparser_1_1_y_a_m_l__parser_1_1_y_a_m_l_parser_1a54e76ebb98b2649f328c7b887dfa8107" compoundref="_y_a_m_l__parser_8py" startline="10" endline="26">parser.YAML_parser.YAMLParser._parse_yaml</referencedby>
+        <referencedby refid="classparser_1_1model__parser_1_1_model_parser_1af46e8c838f3a13db4c576a011076a036" compoundref="model__parser_8py" startline="50" endline="58">parser.model_parser.ModelParser.get_columns</referencedby>
+        <referencedby refid="classparser_1_1model__parser_1_1_model_parser_1a694f81471abc207995b17a47d041e9ae" compoundref="model__parser_8py" startline="27" endline="49">parser.model_parser.ModelParser.get_random_forest_address_config</referencedby>
+        <referencedby refid="classparser_1_1model__parser_1_1_model_parser_1a76dda884e6d3a6bbcac1782ff2fe120d" compoundref="model__parser_8py" startline="59" endline="77">parser.model_parser.ModelParser.get_thresholds</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classparser_1_1parser__base_1_1_parser_base_1a2eafe46a0dfd547f102a6afcee176311" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def parser.parser_base.ParserBase._get</definition>
+        <argsstring>(self, dict variable, field, default_value)</argsstring>
+        <name>_get</name>
+        <qualifiedname>parser.parser_base.ParserBase._get</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>dict</type>
+          <declname>variable</declname>
+        </param>
+        <param>
+          <type>field</type>
+          <defname>field</defname>
+        </param>
+        <param>
+          <type>default_value</type>
+          <defname>default_value</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/parser/parser_base.py" line="18" column="1" bodyfile="src/parser/parser_base.py" bodystart="18" bodyend="23"/>
+        <referencedby refid="classparser_1_1feature__engineering__parser_1_1_feature_engineering_parser_1a4d09f5672b729cc629610f8560714527" compoundref="feature__engineering__parser_8py" startline="80" endline="97">parser.feature_engineering_parser.FeatureEngineeringParser._get_keyboard_smash_config</referencedby>
+        <referencedby refid="classparser_1_1feature__engineering__parser_1_1_feature_engineering_parser_1a43218d1380171031cecf28cabf2ea9fe" compoundref="feature__engineering__parser_8py" startline="60" endline="79">parser.feature_engineering_parser.FeatureEngineeringParser._get_word_embedding_config</referencedby>
+        <referencedby refid="classparser_1_1model__parser_1_1_model_parser_1a76dda884e6d3a6bbcac1782ff2fe120d" compoundref="model__parser_8py" startline="59" endline="77">parser.model_parser.ModelParser.get_thresholds</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>parser.parser_base.ParserBase</label>
+        <link refid="classparser_1_1parser__base_1_1_parser_base"/>
+      </node>
+      <node id="2">
+        <label>parser.YAML_parser.YAMLParser</label>
+        <link refid="classparser_1_1_y_a_m_l__parser_1_1_y_a_m_l_parser"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>parser.feature_engineering_parser.FeatureEngineeringParser</label>
+        <link refid="classparser_1_1feature__engineering__parser_1_1_feature_engineering_parser"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>parser.model_parser.ModelParser</label>
+        <link refid="classparser_1_1model__parser_1_1_model_parser"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="src/parser/parser_base.py" line="3" column="1" bodyfile="src/parser/parser_base.py" bodystart="3" bodyend="23"/>
+    <listofallmembers>
+      <member refid="classparser_1_1parser__base_1_1_parser_base_1a2ccc68acea8b4677c1761e39d9aeb058" prot="public" virt="non-virtual"><scope>parser::parser_base::ParserBase</scope><name>__init__</name></member>
+      <member refid="classparser_1_1parser__base_1_1_parser_base_1a2eafe46a0dfd547f102a6afcee176311" prot="protected" virt="non-virtual"><scope>parser::parser_base::ParserBase</scope><name>_get</name></member>
+      <member refid="classparser_1_1parser__base_1_1_parser_base_1a5d88e7661694746fee4816141582c3a7" prot="protected" virt="non-virtual"><scope>parser::parser_base::ParserBase</scope><name>_try_get</name></member>
+      <member refid="classparser_1_1parser__base_1_1_parser_base_1a4f3b278ff54c422767e66c78a7bb24d6" prot="public" virt="non-virtual"><scope>parser::parser_base::ParserBase</scope><name>filepath</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
