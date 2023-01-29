@@ -31,16 +31,11 @@ release = '1.0.0'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 
-import os
-import sys
+extensions = ['breathe']
 
-sys.path.insert(0, os.path.abspath("../src"))
+breathe_projects = {"GCES-trabalho-final":"../out/xml"}
 
-extensions = [
-    "sphinx.ext.todo",
-    "sphinx.ext.viewcode",
-    "sphinx.ext.autodoc"
-]
+breathe_default_project = "GCES-trabalho-final"
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
